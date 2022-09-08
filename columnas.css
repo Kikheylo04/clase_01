@@ -1,0 +1,21 @@
+
+nav{
+    background: #967E76;
+   padding: 20px;
+    margin: 78px;
+
+}
+.columnas{
+    background:#25316D ;
+    color:#1C6758;
+    padding: 30px;
+    width: 50%;
+    margin: 90px;
+}
+
+.padre{
+    display: flex;
+}
+
+    
+
