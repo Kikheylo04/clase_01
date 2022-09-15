@@ -7,3 +7,15 @@ header {
   padding: 0px 20px;
   text-align: center;
 }
+p {
+  font-family: 'IM Fell Great Primer SC', serif;
+}
+button {
+  background-color: #2F2105;
+  width: 269px;
+  height: 70px;
+  border: 0;
+  font-family: 'IM Fell Great Primer SC', serif;
+  border-radius: 50px;
+  color: white;
+}
