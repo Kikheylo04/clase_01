@@ -1,0 +1,24 @@
+.circle {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(20, 197, 220);
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  border-color: 2px solid brown;;
+}
+@for $tarea from 1 through 4 {
+  .circle-#{$tarea} {
+    animation-name: animacion#{$tarea};
+    @keyframes animacion#{$tarea} {
+      100% {
+        transform: translate(50% * $tarea);
+      }
+    }
+
+    @if $tarea == 4 {
+      animation-direction: alternate-reverse;
+    }
+  }
+}

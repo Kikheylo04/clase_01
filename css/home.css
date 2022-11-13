@@ -1,0 +1,99 @@
+.title-header a {
+  background-color: rgb(70, 10, 6);
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 25px;
+}
+.title-header a:hover {
+  color: #00ffea;
+}
+.title-header a:active {
+  color: chocolate;
+}
+
+body {
+  background: linear-gradient(220.55deg, rgba(36, 207, 196, 0.6980392157) 0%, rgba(0, 28, 99, 0.7960784314) 100%);
+}
+
+.home__inicio h1 {
+  color: brown;
+  margin: 50px;
+  font-size: 40px;
+  text-align: center;
+}
+.home__inicio p {
+  color: #000;
+  margin: 40px;
+  font-size: 20px;
+  background-color: #852;
+  padding: 30px;
+  border-radius: 30px;
+}
+.home__subtitulo {
+  color: #00ff23;
+  margin: 50px;
+}
+.home__imagen {
+  float: right;
+  height: 250px;
+  width: 250px;
+  border-radius: 70px;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.219);
+  margin-right: 180px;
+  border: 3px solid #555;
+}
+.home__imagen img {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #545;
+  border-radius: 30px;
+}
+.home__form__input input {
+  display: flex;
+  padding: 15px 80px 15px 5px;
+  background-color: #00ffea;
+  color: rgb(3, 3, 3);
+  text-size-adjust: 20;
+  margin-left: 70px;
+  margin-top: 20px;
+  border: 3px solid black;
+}
+.home__form__input button {
+  padding: 15px 40px 15px 40px;
+  margin-top: 20px;
+  font-size: 15px;
+  margin-left: 70px;
+  margin-right: 0;
+  background-color: #00ffea;
+  border: 3px solid black;
+  cursor: pointer;
+}
+.home__form__input button:hover {
+  background-color: #00ff23;
+}
+.home__contact {
+  display: flex;
+  background-color: #00ffea;
+  font-family: Bungee Spice;
+  text-align: center;
+  margin: 30px;
+  padding: 10px;
+  border: 2px solid #000;
+  border-radius: 25px;
+}
+.home__contact h2 {
+  text-align: center;
+  padding: 10px;
+}
+.home__contact p {
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=home.css.map */

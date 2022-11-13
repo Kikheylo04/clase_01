@@ -4,20 +4,66 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="static/css/index.css" />
-    <link rel="shortcut icon" href="static/images/descarga.png">
+    <link rel="stylesheet" href="../proyecto/css/home.css"/>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Bungee+Spice?preview.text=CLARING&preview.size=76&preview.text_type=custom">
+    <script src="https://kit.fontawesome.com/62ea397d3a.js"></script>
     <title>HOME</title>
   </head>
   <body>
-    <header>
-      <a href="index.html" class="title">HOME</a>
-      <a href="universidad/index.html" class="title-header">UNIVERSIDAD</a>
-      <a href="pre-academia/index.html" class="title-header">PRE-ACADEMIA</a>
-      <a href="colegio/index.html" class="title-header">COLEGIO</a>
-      <a href="escuela/index.html" class="title-header">ESCUELA</a>
+    <header class="title-header">
+        <a href="index.html" class="title-header">HOME</a>
+        <a href="./universidad/index.html" target="_blank" >UNIVERSIDAD</a>
+        <a href="pre-academia/index.html" target="_blank" >PRE-ACADEMIA</a>
+        <a href="colegio/index.html" target="_blank" >COLEGIO</a>
+        <a href="escuela/index.html" target="_blank">ESCUELA</a>
+        <a href="tienda/index.html"class="title-header fas fa-store" target="_blank"></a>
     </header>
-    <div>
-      <p>Bievenido a está página, te brindaremos una educacion nunca antes vista, de aqui saldras con un conocimiento superior.</p>
-    </div>
+    <main>
+      <section class="home">
+        <div class="home__inicio">
+          <h1>BIENVENIDO </h1>
+          <p>Bievenido a está página, te brindaremos una educacion nunca antes
+              vista, de aqui saldras con un conocimiento superior
+            Te orientamos a escoger una carrera profesional especialmente para
+              ti, teniendo en cuenta tú aptitud. </br >
+              Contamos con los mejores profesores, podras hacer cualquier pregunta a
+              cualquier hora, ellos estaran a tu disposicion. </br></br>
+              Estos cursos son fundamentales para tu desarrollo en cualquier ámbito.
+              Además las clases que se lleva a cabo serán guardadas.
+          </p>
+        </div>
+        <div class="home__subtitulo">
+            <h2>REGISTRATE:</h2>
+        </div>
+        <div class="home__imagen">
+          <img src="static/images/liibro.jpg" alt="" />
+        </div>
+        <form class="home__form">
+          <div class="home__form__input">
+            <input type="text" minlength="4 " placeholder="NOMBRES:" required="" >
+           </div>
+          <div class="home__form__input">
+            <input  type="text" placeholder="APELLIDOS:" required="" >
+          </div>
+          <div class="home__form__input">
+            <input type="number" placeholder="DNI:" required="">
+          </div>
+          <div class="home__form__input">
+            <input type="email" placeholder="CORREO ELECTRONICO:" required="">
+          </div>
+          <div class="home__form__input">
+            <button>Enviar</button>
+          </div>
+        </form>
+        <div class="home__contact">
+          <h2>Si deseas más información, comunicarte con nosotros.</h2>
+        <p><b> CONTACTANOS:</b></p>
+          <p><b>TELEFONO: +51 987654321</b></p>
+          <p><b> WHATSAPP: +51 987654321 </b> </p>
+          <p><b>FACEBOOK: CLARING  </b></p>
+        </div>
+      </section>
+    </main>
+  
   </body>
 </html>

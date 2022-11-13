@@ -1,0 +1,204 @@
+body {
+  background: linear-gradient(220.55deg, rgba(36, 207, 196, 0.6980392157) 0%, rgba(0, 28, 99, 0.7960784314) 100%);
+}
+
+.tienda h1 {
+  color: rgb(22, 48, 5);
+  font-size: 40px;
+  margin-left: 580px;
+}
+.tienda__indicar {
+  width: 500px;
+  height: 120px;
+  color: #030;
+  text-align: start;
+  background-color: aqua;
+  padding-top: -1px;
+  font-size: 25px;
+  margin-left: 190px;
+}
+.tienda__eleccion {
+  text-align: end;
+  padding: 30px;
+  margin-top: -200px;
+  margin-right: 280px;
+}
+.tienda__eleccion button {
+  background-color: #999;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.tienda__eleccion button:active {
+  background-color: #555;
+}
+.tienda p {
+  text-align: center;
+  color: #505;
+}
+.tienda__formulario__input {
+  text-align: center;
+  margin: 20px;
+}
+.tienda__formulario input {
+  background-color: #999999;
+  border: 2px solid #000;
+  padding: 10px;
+}
+.tienda__formulario input:active {
+  background-color: #555;
+}
+.tienda__facturar {
+  text-align: center;
+}
+.tienda__facturar button {
+  background-color: #999;
+  padding: 10px;
+}
+.tienda__facturar button:active {
+  background-color: #555;
+}
+.tienda__imagenes img {
+  border-radius: 10%;
+  height: 160px;
+  right: 120px;
+  border: 5px solid rgb(131, 67, 120);
+  float: right;
+  margin-left: 55px;
+  margin-right: 55px;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 900px) {
+  body {
+    background: linear-gradient(220.55deg, rgba(36, 207, 196, 0.6980392157) 0%, rgba(0, 28, 99, 0.7960784314) 100%);
+  }
+  .tienda h1 {
+    color: rgb(22, 48, 5);
+    font-size: 40px;
+    margin-left: 280px;
+  }
+  .tienda__indicar {
+    width: 500px;
+    height: 120px;
+    color: #030;
+    text-align: start;
+    background-color: aqua;
+    padding-top: -1px;
+    font-size: 25px;
+    margin-left: 60px;
+  }
+  .tienda__eleccion {
+    text-align: end;
+    padding: 30px;
+    margin-top: -180px;
+    margin-right: 60px;
+  }
+  .tienda__eleccion button {
+    background-color: #999;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .tienda__eleccion button:active {
+    background-color: #555;
+  }
+  .tienda p {
+    text-align: center;
+    color: #505;
+  }
+  .tienda__formulario__input {
+    text-align: center;
+    margin: 20px;
+  }
+  .tienda__formulario input {
+    background-color: #999999;
+    border: 2px solid #000;
+    padding: 10px;
+  }
+  .tienda__formulario input:active {
+    background-color: #555;
+  }
+  .tienda__facturar {
+    text-align: center;
+  }
+  .tienda__facturar button {
+    background-color: #999;
+    padding: 10px;
+  }
+  .tienda__facturar button:active {
+    background-color: #555;
+  }
+  .tienda__imagenes img {
+    border-radius: 10%;
+    height: 120px;
+    right: 100px;
+    border: 5px solid rgb(0, 0, 0);
+    margin-left: -15px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body {
+    background: linear-gradient(220.55deg, rgba(36, 207, 196, 0.6980392157) 0%, rgba(0, 28, 99, 0.7960784314) 100%);
+  }
+  .tienda h1 {
+    color: rgb(22, 48, 5);
+    font-size: 40px;
+    margin-left: 80px;
+  }
+  .tienda__indicar {
+    width: 350px;
+    height: 130px;
+    color: #030;
+    text-align: start;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .tienda__eleccion {
+    text-align: center;
+    padding: 30px;
+    margin-top: -20px;
+    margin-right: 5px;
+  }
+  .tienda__eleccion button {
+    background-color: #999;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .tienda__eleccion button:active {
+    background-color: #555;
+  }
+  .tienda p {
+    text-align: center;
+    color: #505;
+  }
+  .tienda__formulario__input {
+    text-align: center;
+    margin: 20px;
+  }
+  .tienda__formulario input {
+    background-color: #999999;
+    border: 2px solid #000;
+    padding: 10px;
+  }
+  .tienda__formulario input:active {
+    background-color: #555;
+  }
+  .tienda__facturar {
+    text-align: center;
+  }
+  .tienda__facturar button {
+    background-color: #999;
+    padding: 10px;
+  }
+  .tienda__facturar button:active {
+    background-color: #555;
+  }
+  .tienda__imagenes img {
+    border-radius: 10%;
+    height: 120px;
+    right: 100px;
+    border: 5px solid rgb(0, 0, 0);
+    margin-right: 80px;
+  }
+}
+
+/*# sourceMappingURL=tienda.css.map */

@@ -1,0 +1,174 @@
+.titulo {
+  a {
+    background-color: rgb(70, 10, 6);
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px 13px;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 25px;
+    &:hover {
+      color: #00ffea;
+    }
+    &:active {
+      color: chocolate;
+    }
+  }
+}
+body {
+  background: linear-gradient(220.55deg, #24cfc4b2 0%, #001c63cb 100%);
+}
+.escuela{
+  &__titulo {
+    color: brown;
+    margin: 0px 15px;
+    text-align: center;
+  }
+  &__conteiner {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 240px);
+    grid-template-rows: 460px 450px;
+    margin: 5 px;
+    align-content: center;
+    justify-content: center;
+    &__item {
+      margin: 10px;
+      border: 3px solid black;
+      border-radius: 10%;
+      background-color: rgba(136, 184, 74, 0.623);
+      text-align: center;
+      a {
+        text-decoration: none;
+        color: blue;
+      }
+      &__enlace ,&__enlace1, &__enlace2, &__enlace3,&__enlace4, &__enlace5,&__enlace6,&__enlace7{
+        color: rgb(3, 3, 3);
+        text-align: center;
+      }
+      &__imagen {
+        width: 170px;
+        height: 170px;
+        margin: 0 auto;
+        box-sizing: content-box;
+        img {
+          width: 90%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 10%;
+          border: 3px solid #000000;
+        }
+      }
+    }
+  }
+  &__frases {
+    display: grid;
+    margin: 1px 40px;
+
+    p {
+      color: rgb(41, 9, 9);
+      background-color: rgb(12, 139, 0);
+      font-size: 20px;
+      width: 400px;
+      display: inline;
+    }
+    &__imagen {
+      img {
+        border-radius: 10%;
+        float:right;
+        margin-top: -350px;
+        margin-right: 80px;
+        height: 300px;
+        right: 300px;
+        border: 5px solid rgb(27, 39, 36);
+      }
+    }
+  }
+}
+@media only screen and (max-width: 750px) {
+  .title-header {
+    a {
+      background-color: rgb(70, 10, 6);
+      text-decoration: none;
+      border-radius: 15px;
+      margin: 10px;
+      color: #ffffff;
+      padding: 10px;
+      font-size: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      display: inline-block;
+      &:hover {
+        color: #00ffea;
+      }
+      &:active {
+        color: chocolate;
+      }
+    }
+  }
+  body {
+    background: linear-gradient(220.55deg, #24cfc4b2 0%, #001c63cb 100%);
+  }
+
+  .escuela{
+    &__titulo {
+      color: brown;
+      text-align: center;
+      font-size: 15px;
+      margin: 0 auto;
+    }
+    &__conteiner {
+      display: flex;
+      flex-direction: column;
+      margin: 30px 50px;
+      &__item {
+        margin: 6px;
+        border: 3px solid black;
+        border-radius: 10%;
+        background-color: yellow;
+        text-align: center;
+        a {
+          text-decoration: none;
+          color: blue;
+        }
+        &__enlace {
+          color: darkmagenta;
+          text-align: center;
+        }
+        &__imagen {
+          width: 150px;
+          height: 150px;
+          margin: 0 auto;
+          box-sizing: content-box;
+          img {
+            width: 80%;
+            height: 80%;
+            object-fit: cover;
+            border-radius: 10%;
+            border: 3px solid #ff0000;
+          }
+        }
+      }
+    }
+    &__frases {
+      display: grid;
+      margin: 6px;
+
+      p {
+        color: rgb(41, 9, 9);
+        background-color: rgb(12, 139, 0);
+        font-size: 20px;
+        width: 250px;
+      }
+      &__imagen {
+        img {
+          border-radius: 10%;
+          margin: 0 20px 0 20px;
+          height: 200px;
+          right: 200px;
+          border: 5px solid red;
+        }
+      }
+    }
+  }
+}

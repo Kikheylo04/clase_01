@@ -1,0 +1,105 @@
+.title-header {
+  a {
+    background-color: rgb(70, 10, 6);
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 25px;
+    &:hover {
+      color: #00ffea;
+    }
+    &:active {
+      color: chocolate;
+    }
+  }
+}
+body {
+  background: linear-gradient(220.55deg, #24cfc4b2 0%, #001c63cb 100%);
+}
+.home {
+  &__inicio {
+    h1 {
+      color: brown;
+      margin: 50px;
+      font-size: 40px;
+      text-align: center;
+    }
+    p {
+      color: #000;
+      margin: 40px;
+      font-size: 20px;
+      background-color:#852;
+      padding: 30px;
+      border-radius: 30px;
+    }
+  }
+  &__subtitulo {
+    color: #00ff23;
+    margin: 50px;
+  }
+  &__imagen {
+    float: right;
+    height: 250px;
+    width: 250px;
+    border-radius: 70px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.219);
+    margin-right: 180px;
+    border: 3px solid #555;
+    img {
+      width: 200px;
+      height: 200px;
+      border: 5px solid #545;
+      border-radius: 30px;
+    }
+  }
+  &__form {
+    &__input {
+      input {
+        display: flex;
+        padding: 15px 80px 15px 5px;
+        background-color: #00ffea;
+        color: rgb(3, 3, 3);
+        text-size-adjust: 20;
+        margin-left: 70px;
+        margin-top: 20px;
+        border: 3px solid black;
+      }
+      button {
+        padding: 15px 40px 15px 40px;
+        margin-top: 20px;
+        font-size: 15px;
+        margin-left: 70px;
+        margin-right: 0;
+        background-color: #00ffea;
+        border: 3px solid black;
+        cursor: pointer;
+        &:hover {
+          background-color: #00ff23;
+        }
+      }
+    }
+  }
+  &__contact {
+    display: flex;
+    background-color: #00ffea;
+    font-family: Bungee Spice;
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 25px;
+    h2 {
+      text-align: center;
+      padding:10px;
+    }
+    p{
+      padding: 10px;
+      margin: 10px;
+      font-size: 20px;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@use "mixin";
+@mixin arreglar-imagen {
+  background: {
+    size: cover;
+    repeat: no-repeat;
+    position: center;
+  }
+}
+.hero {
+  .container {
+    height: 50%;
+    background-image: linear-gradient(white, black);
+    @include mixin.crear-flexbox(center);
+    @include arreglar-imagen;
+  }
+  .texts {
+    color: white;
+  }
+  .title{
+    font-size: mixin.pixeles-rem(70);
+  }
+}
