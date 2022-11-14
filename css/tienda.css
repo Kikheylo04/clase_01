@@ -5,39 +5,45 @@ body {
 .tienda h1 {
   color: rgb(22, 48, 5);
   font-size: 40px;
-  margin-left: 580px;
+  margin-left: 380px;
 }
 .tienda__indicar {
-  width: 500px;
-  height: 120px;
+  width: 460px;
+  height: 160px;
   color: #030;
   text-align: start;
   background-color: aqua;
-  padding-top: -1px;
+  padding-top: 10px;
+  padding-bottom: 28px;
   font-size: 25px;
-  margin-left: 190px;
+  margin-left: 130px;
+  margin-top: 30px;
+  border: 5px solid black;
+}
+.tienda__indicar P {
+  color: #000;
+  margin: 10px 10px 0;
 }
 .tienda__eleccion {
-  text-align: end;
+  display: flex;
   padding: 30px;
-  margin-top: -200px;
-  margin-right: 280px;
+  margin: -250px 0 0 700px;
+  flex-direction: column;
 }
 .tienda__eleccion button {
   background-color: #999;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 5px 15px;
 }
 .tienda__eleccion button:active {
   background-color: #555;
 }
-.tienda p {
+.tienda h2 {
   text-align: center;
   color: #505;
 }
 .tienda__formulario__input {
   text-align: center;
-  margin: 20px;
+  margin: 5px 0 20px;
 }
 .tienda__formulario input {
   background-color: #999999;
@@ -46,6 +52,10 @@ body {
 }
 .tienda__formulario input:active {
   background-color: #555;
+}
+.tienda h3 {
+  text-align: center;
+  color: #505;
 }
 .tienda__facturar {
   text-align: center;
@@ -62,10 +72,7 @@ body {
   height: 160px;
   right: 120px;
   border: 5px solid rgb(131, 67, 120);
-  float: right;
-  margin-left: 55px;
-  margin-right: 55px;
-  margin-top: 30px;
+  margin: 50px 3vw;
 }
 
 @media only screen and (max-width: 900px) {
@@ -101,7 +108,7 @@ body {
   .tienda__eleccion button:active {
     background-color: #555;
   }
-  .tienda p {
+  .tienda h2 {
     text-align: center;
     color: #505;
   }
@@ -116,6 +123,10 @@ body {
   }
   .tienda__formulario input:active {
     background-color: #555;
+  }
+  .tienda h3 {
+    text-align: center;
+    color: #505;
   }
   .tienda__facturar {
     text-align: center;
@@ -166,7 +177,7 @@ body {
   .tienda__eleccion button:active {
     background-color: #555;
   }
-  .tienda p {
+  .tienda h2 {
     text-align: center;
     color: #505;
   }
@@ -181,6 +192,10 @@ body {
   }
   .tienda__formulario input:active {
     background-color: #555;
+  }
+  .tienda h3 {
+    text-align: center;
+    color: #505;
   }
   .tienda__facturar {
     text-align: center;
@@ -197,7 +212,7 @@ body {
     height: 120px;
     right: 100px;
     border: 5px solid rgb(0, 0, 0);
-    margin-right: 80px;
+    justify-content: space-between;
   }
 }
 

@@ -5,41 +5,47 @@ body {
   h1 {
     color: rgb(22, 48, 5);
     font-size: 40px;
-    margin-left: 580px;
+    margin-left: 380px;
   }
   &__indicar {
-    width: 500px;
-    height: 120px;
+    width: 460px;
+    height: 160px;
     color: #030;
     text-align: start;
     background-color: aqua;
-    padding-top: -1px;
+    padding-top: 10px;
+    padding-bottom: 28px;
     font-size: 25px;
-    margin-left: 190px;
+    margin-left: 130px;
+    margin-top: 30px;
+    border: 5px solid black;
+    P{
+      color: #000;
+      margin: 10px 10px 0 ;
+    }
   }
 
   &__eleccion {
-    text-align: end;
+    display: flex;
     padding: 30px;
-    margin-top: -200px;
-    margin-right: 280px;
+    margin: -250px  0 0 700px;
+    flex-direction: column;
     button {
       background-color: #999;
-      padding-right: 15px;
-      padding-left: 15px;
+      padding: 5px 15px;
       &:active {
         background-color: #555;
       }
     }
   }
-  p {
+  h2 {
     text-align: center;
     color: #505;
   }
   &__formulario {
     &__input {
       text-align: center;
-      margin: 20px;
+      margin: 5px 0 20px;
     }
     input {
       background-color: #999999;
@@ -49,6 +55,10 @@ body {
         background-color: #555;
       }
     }
+  }
+  h3 {
+    text-align: center;
+    color: #505;
   }
   &__facturar {
     text-align: center;
@@ -66,10 +76,7 @@ body {
       height: 160px;
       right: 120px;
       border: 5px solid rgb(131, 67, 120);
-      float: right;
-      margin-left: 55px;
-      margin-right: 55px;
-      margin-top: 30px;
+      margin: 50px 3vw;
     }
   }
 }
@@ -91,14 +98,14 @@ body {
       background-color: aqua;
       padding-top: -1px;
       font-size: 25px;
-      margin-left:60px;
+      margin-left: 60px;
     }
 
     &__eleccion {
       text-align: end;
       padding: 30px;
       margin-top: -180px;
-      margin-right:60px;
+      margin-right: 60px;
       button {
         background-color: #999;
         padding-right: 15px;
@@ -108,7 +115,7 @@ body {
         }
       }
     }
-    p {
+    h2 {
       text-align: center;
       color: #505;
     }
@@ -126,6 +133,10 @@ body {
         }
       }
     }
+    h3 {
+      text-align: center;
+      color: #505;
+    }
     &__facturar {
       text-align: center;
       button {
@@ -142,7 +153,7 @@ body {
         height: 120px;
         right: 100px;
         border: 5px solid rgb(0, 0, 0);
-        margin-left:-15px;
+        margin-left: -15px;
       }
     }
   }
@@ -181,7 +192,7 @@ body {
         }
       }
     }
-    p {
+    h2 {
       text-align: center;
       color: #505;
     }
@@ -199,6 +210,10 @@ body {
         }
       }
     }
+    h3 {
+      text-align: center;
+      color: #505;
+    }
     &__facturar {
       text-align: center;
       button {
@@ -215,7 +230,7 @@ body {
         height: 120px;
         right: 100px;
         border: 5px solid rgb(0, 0, 0);
-        margin-right: 80px;
+        justify-content: space-between;
       }
     }
   }
