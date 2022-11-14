@@ -125,7 +125,6 @@ body {
     color: blue;
   }
   .pre-academia__conteiner__item__enlace {
-    color: darkmagenta;
     text-align: center;
   }
   .pre-academia__conteiner__item__imagen {
@@ -143,7 +142,7 @@ body {
   }
   .pre-academia__frases {
     display: grid;
-    margin: 50px;
+    margin: 1px 65px;
   }
   .pre-academia__frases p {
     color: rgb(41, 9, 9);
@@ -153,8 +152,7 @@ body {
   }
   .pre-academia__frases__imagen img {
     border-radius: 10%;
-    margin-top: 10px;
-    margin-right: 70px;
+    margin: 0 80px 20px;
     height: 200px;
     right: 200px;
     border: 5px solid rgb(27, 39, 36);

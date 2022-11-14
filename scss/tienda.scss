@@ -19,16 +19,16 @@ body {
     margin-left: 130px;
     margin-top: 30px;
     border: 5px solid black;
-    P{
+    P {
       color: #000;
-      margin: 10px 10px 0 ;
+      margin: 10px 10px 0;
     }
   }
 
   &__eleccion {
     display: flex;
     padding: 30px;
-    margin: -250px  0 0 700px;
+    margin: -250px 0 0 700px;
     flex-direction: column;
     button {
       background-color: #999;
@@ -80,7 +80,7 @@ body {
     }
   }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 767px) {
   body {
     background: linear-gradient(220.55deg, #24cfc4b2 0%, #001c63cb 100%);
   }
@@ -88,105 +88,35 @@ body {
     h1 {
       color: rgb(22, 48, 5);
       font-size: 40px;
-      margin-left: 280px;
+      margin:20px 70px 20px;
     }
     &__indicar {
-      width: 500px;
-      height: 120px;
+      width: 340px;
+      height: 170px;
       color: #030;
       text-align: start;
       background-color: aqua;
-      padding-top: -1px;
-      font-size: 25px;
-      margin-left: 60px;
-    }
-
-    &__eleccion {
-      text-align: end;
-      padding: 30px;
-      margin-top: -180px;
-      margin-right: 60px;
-      button {
-        background-color: #999;
-        padding-right: 15px;
-        padding-left: 15px;
-        &:active {
-          background-color: #555;
-        }
-      }
-    }
-    h2 {
-      text-align: center;
-      color: #505;
-    }
-    &__formulario {
-      &__input {
-        text-align: center;
-        margin: 20px;
-      }
-      input {
-        background-color: #999999;
-        border: 2px solid#000;
-        padding: 10px;
-        &:active {
-          background-color: #555;
-        }
-      }
-    }
-    h3 {
-      text-align: center;
-      color: #505;
-    }
-    &__facturar {
-      text-align: center;
-      button {
-        background-color: #999;
-        padding: 10px;
-        &:active {
-          background-color: #555;
-        }
-      }
-    }
-    &__imagenes {
-      img {
-        border-radius: 10%;
-        height: 120px;
-        right: 100px;
-        border: 5px solid rgb(0, 0, 0);
-        margin-left: -15px;
-      }
-    }
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  body {
-    background: linear-gradient(220.55deg, #24cfc4b2 0%, #001c63cb 100%);
-  }
-  .tienda {
-    h1 {
-      color: rgb(22, 48, 5);
-      font-size: 40px;
-      margin-left: 80px;
-    }
-    &__indicar {
-      width: 350px;
-      height: 130px;
-      color: #030;
-      text-align: start;
+      padding-left:-10px;
+      padding-top: 10px;
+      padding-bottom: 28px;
       font-size: 20px;
-      margin-left: 10px;
+      margin: 30px 0 0 10px;
+      border: 5px solid black;
+      P {
+        color: #000;
+        margin: 10px 10px 0;
+      }
     }
-
+  
     &__eleccion {
-      text-align: center;
+      display: flex;
       padding: 30px;
-      margin-top: -20px;
-      margin-right: 5px;
+      margin: 10px 110px 0;
+      flex-direction: column;
       button {
         background-color: #999;
-        padding-right: 15px;
-        padding-left: 15px;
+        padding: 5px 15px;
+        border: 2px solid black;
         &:active {
           background-color: #555;
         }
@@ -199,7 +129,7 @@ body {
     &__formulario {
       &__input {
         text-align: center;
-        margin: 20px;
+        margin: 5px 0 20px;
       }
       input {
         background-color: #999999;
@@ -219,6 +149,7 @@ body {
       button {
         background-color: #999;
         padding: 10px;
+        border: 2px solid black;
         &:active {
           background-color: #555;
         }
@@ -227,10 +158,10 @@ body {
     &__imagenes {
       img {
         border-radius: 10%;
-        height: 120px;
-        right: 100px;
-        border: 5px solid rgb(0, 0, 0);
-        justify-content: space-between;
+        height: 100px;
+        width: 80px;
+        border: 3px solid rgb(131, 67, 120);
+        margin: 40px 4vw;
       }
     }
   }

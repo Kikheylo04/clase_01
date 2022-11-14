@@ -131,7 +131,6 @@ body {
           color: blue;
         }
         &__enlace {
-          color: darkmagenta;
           text-align: center;
         }
         &__imagen {
@@ -151,7 +150,7 @@ body {
     }
     &__frases {
       display: grid;
-      margin: 50px;
+      margin: 1px 65px;
 
       p {
         color: rgb(41, 9, 9);
@@ -162,8 +161,7 @@ body {
       &__imagen {
         img {
           border-radius: 10%;
-          margin-top:10px;
-          margin-right:70px;
+          margin: 0 80px 20px;
           height: 200px;
           right: 200px;
           border: 5px solid rgb(27, 39, 36);

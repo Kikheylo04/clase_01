@@ -19,7 +19,7 @@
 body {
   background: linear-gradient(220.55deg, #24cfc4b2 0%, #001c63cb 100%);
 }
-.escuela{
+.escuela {
   &__titulo {
     color: brown;
     margin: 0px 15px;
@@ -42,7 +42,14 @@ body {
         text-decoration: none;
         color: blue;
       }
-      &__enlace ,&__enlace1, &__enlace2, &__enlace3,&__enlace4, &__enlace5,&__enlace6,&__enlace7{
+      &__enlace,
+      &__enlace1,
+      &__enlace2,
+      &__enlace3,
+      &__enlace4,
+      &__enlace5,
+      &__enlace6,
+      &__enlace7 {
         color: rgb(3, 3, 3);
         text-align: center;
       }
@@ -75,7 +82,7 @@ body {
     &__imagen {
       img {
         border-radius: 10%;
-        float:right;
+        float: right;
         margin-top: -350px;
         margin-right: 80px;
         height: 300px;
@@ -85,8 +92,8 @@ body {
     }
   }
 }
-@media only screen and (max-width: 750px) {
-  .title-header {
+@media only screen and (max-width: 767px) {
+  .titulo {
     a {
       background-color: rgb(70, 10, 6);
       text-decoration: none;
@@ -110,7 +117,7 @@ body {
     background: linear-gradient(220.55deg, #24cfc4b2 0%, #001c63cb 100%);
   }
 
-  .escuela{
+  .escuela {
     &__titulo {
       color: brown;
       text-align: center;
@@ -125,14 +132,13 @@ body {
         margin: 6px;
         border: 3px solid black;
         border-radius: 10%;
-        background-color: yellow;
+        background-color: rgba(136, 184, 74, 0.623);
         text-align: center;
         a {
           text-decoration: none;
           color: blue;
         }
         &__enlace {
-          color: darkmagenta;
           text-align: center;
         }
         &__imagen {
@@ -145,14 +151,14 @@ body {
             height: 80%;
             object-fit: cover;
             border-radius: 10%;
-            border: 3px solid #ff0000;
+            border: 3px solid #000;
           }
         }
       }
     }
     &__frases {
       display: grid;
-      margin: 6px;
+      margin: 1px 65px;
 
       p {
         color: rgb(41, 9, 9);
@@ -163,10 +169,10 @@ body {
       &__imagen {
         img {
           border-radius: 10%;
-          margin: 0 20px 0 20px;
+          margin: 0 80px;
           height: 200px;
           right: 200px;
-          border: 5px solid red;
+          border: 5px solid rgb(27, 39, 36)
         }
       }
     }

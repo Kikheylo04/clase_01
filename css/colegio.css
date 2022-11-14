@@ -81,8 +81,8 @@ body {
   border: 5px solid rgb(27, 39, 36);
 }
 
-@media only screen and (max-width: 750px) {
-  .title-header a {
+@media only screen and (max-width: 767px) {
+  .titulo a {
     background-color: rgb(70, 10, 6);
     text-decoration: none;
     border-radius: 15px;
@@ -94,10 +94,10 @@ body {
     flex-wrap: wrap;
     display: inline-block;
   }
-  .title-header a:hover {
+  .titulo a:hover {
     color: #00ffea;
   }
-  .title-header a:active {
+  .titulo a:active {
     color: chocolate;
   }
   body {
@@ -118,7 +118,7 @@ body {
     margin: 6px;
     border: 3px solid black;
     border-radius: 10%;
-    background-color: yellow;
+    background-color: rgba(136, 184, 74, 0.623);
     text-align: center;
   }
   .colegio__conteiner__item a {
@@ -126,7 +126,6 @@ body {
     color: blue;
   }
   .colegio__conteiner__item__enlace {
-    color: darkmagenta;
     text-align: center;
   }
   .colegio__conteiner__item__imagen {
@@ -140,11 +139,11 @@ body {
     height: 80%;
     object-fit: cover;
     border-radius: 10%;
-    border: 3px solid #ff0000;
+    border: 3px solid #000000;
   }
   .colegio__frases {
     display: grid;
-    margin: 6px;
+    margin: 1px 65px;
   }
   .colegio__frases p {
     color: rgb(41, 9, 9);
@@ -154,10 +153,10 @@ body {
   }
   .colegio__frases__imagen img {
     border-radius: 10%;
-    margin: 0 20px 0 20px;
+    margin: 0 40px 20px;
     height: 200px;
     right: 200px;
-    border: 5px solid red;
+    border: 5px solid rgb(27, 39, 36);
   }
 }
 
